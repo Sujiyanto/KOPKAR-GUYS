@@ -32,7 +32,7 @@
                         <ul class="sub-menu children dropdown-menu">
                         <li><i class="fa fa-user" aria-hidden="true"></i></i><a href="<?= base_url('member/personal');?>">Personal</a></li>
                            
-                        <li><i class="fa fa-file" aria-hidden="true"></i><a href="<?= base_url('');?>">Tagihan</a></li>
+                        <li><i class="fa fa-file" aria-hidden="true"></i><a href="">Tagihan</a></li>
 
                         <li><i class="fa fa-question" aria-hidden="true"></i><a href="<?= base_url('member/help');?>">Help</a></li>
 
