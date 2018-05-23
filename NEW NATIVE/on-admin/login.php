@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Admin Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<br/>
+	<br/>
+	
+	<br/>
+	<div class="login">
+	<center><h2 style="color: #3498db">LOGIN ADMIN</h2></center>	
+	<br/>
+		<form action="proses_login.php" method="post">
+			<div>
+				<input type="text" id="username" name="username" placeholder="Username" class="formlogin" autocomplete="off" autofocus="on" required>
+			</div>
+			<div>
+				<input type="password" id="password" name="password" placeholder="Password" class="formlogin" autocomplete="off" required>
+			</div>			
+			<div>
+				<input type="submit" value="LOGIN" class="tombollogin" name="login">
+			</div>
+		</form>
+			 
+	</div>
+</body>
+ 
+<script type="text/javascript">
+	function validasi() {
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;		
+		if (username != "" && password!="") {
+			return true;
+		}else{
+			alert('Username dan Password harus di isi !');
+			return false;
+		}
+	}
+ 
+</script>
+</html>
